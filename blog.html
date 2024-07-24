@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai House | Blogs
+    </title>
+    <link rel="stylesheet" href="./css/work.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+
+        h2 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .blog {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .blog h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .blog p {
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .card h2 {
+            font-size: 30px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .card h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .card img {
+            width: 100%;
+        }
+
+        .card h4 {
+            font-size: 25px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: 500;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .blog .image{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .blog .image img{
+            width: 45%;
+        }
+
+        .card form{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card form input{
+            width: 45%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+
+
+        .card button{
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .card button a{
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .card button:hover{
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+        /* Media tag to make the page screen responsive */
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bonsai House</h1>
+
+        <div class="search">
+            <input type="text" placeholder="Find your product">
+            <button type="submit"> Search</button>
+        </div>
+        <div class="login-signup">
+            <!-- Login using username and password -->
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+            <button type="submit"><a href="signup.html">Login</a> </button>
+            <button type="submit"><a href="signup.html">Sign Up</a> </button>
+        </div>
+    </header>
+
+    <header class="navbar">
+        <nav class="navigation">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./Aboutus.html">About</a></li>
+                <li><a href="./contactus.html">Contact</a></li>
+                <li><a href="./product.html">Products</a></li>
+                <li><a href="./research.html">Research</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="row">
+        <!-- Blog article -->
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Bonsai and Technology</h2>
+                <h5>Dec 28, 2022</h5>
+                <div class="blog">
+                    <div class="image">
+                        <img src="./Images/azalea.jpg">
+                        <img src="./Images/technology.jfif" alt="">
+                    </div>
+                </div>
+                <h4>Evolution of Technology</h4>
+                <p>The advancement of technology has become a vital part of modern life, with people relying on
+                    technology for
+                    communication, transportation, education, healthcare and more. Technology has made life easier and
+                    more convenient
+                    by making communication and transportation faster and easier, making education accessible to all,
+                    and improving
+                    healthcare services. Technology has also made the world smaller and a better place to live by
+                    connecting people from all over the world and fostering innovation and creativity. However,
+                    technology also has
+                    negative impacts on society, such as the development of controversial medical practices and changes
+                    in social
+                    interaction methods. Despite these negative impacts, technology is an essential part of human life
+                    and will
+                    continue to shape and influence society in the future. In the business world, technology is used to
+                    improve
+                    efficiency and increase productivity, as well as to foster innovation and creativity. Technology
+                    also helps
+                    businesses reduce injury risks to employees and improve competitiveness in the markets. Some
+                    examples of how
+                    technology is used in business include the use of automated systems in manufacturing, the use of
+                    database systems
+                    to store data, and the use of e-commerce to conduct international trade. As technology continues to
+                    evolve, it
+                    will continue to have a significant impact on businesses and society as a whole.</p>
+                <h4>Pros and Cons of Technology</h4>
+                <p>
+                    Both positive and negative effects of technology use on society have been observed. On the one hand,
+                    technology has substantially improved productivity and efficiency by automating a number of
+                    monotonous jobs and enabling quicker communication and information access. Technology has made
+                    remote consultations and more efficient treatments possible in the healthcare industry. Technology
+                    has facilitated many parts of daily living, from online shopping to leisure. On the other hand,
+                    technology has contributed to the loss of jobs, an increase in screen time and the health issues
+                    that come with it, as well as an increase in cybercrime. Overusing technology can also result in
+                    addiction and less face-to-face engagement, which lowers social skills and personal connection.
+                    Despite the fact that technology has a lot of advantages, it's important to utilize it responsibly.
+                </p>
+                <h4>Bonsai and It's Importance</h4>
+                <p>Despite the fact that the term "Bon-sai" is Japanese, the art it describes has its origins in the
+                    Chinese kingdom. By 700 AD, the Chinese had perfected the practice of "pun-sai," using novel
+                    techniques to grow miniature trees in pots. Pun-Tsai was formerly only practiced by society's elite
+                    sections utilizing native specimens that were given away as pricey gifts all around China. During
+                    the Kamakura period, when Japan was absorbing many of China's cultural traits, the practice of
+                    growing trees in containers was introduced to Japan. Japanese bonsai were developed in special ways
+                    as a result of the Zen Buddhism's influence and the country's small size (only 4% that of mainland
+                    China).</p>
+                <p>Renowned for their capacity to lower stress, bonsai plants. This explains why it may be found on so
+                    many desks in offices. Since it slows breathing, many people think that cultivating it is a great
+                    hobby.</p>
+                <p>Bonsai trees will teach you patience and physical activity because they need proper care, such as
+                    watering, feeding, and trimming. It gives us the chance to learn the most significant life lesson:
+                    if you work hard and are patient, it will pay off for you. </p>
+                <p>Bonsai plants have a variety of advantages, but one of those advantages is that they help to purify
+                    the air, making them some of the best plants for residences or commercial buildings. </p>
+                <p>Lethargy, tiredness, and coughing can all be effectively treated with bonsai.</p>
+                <h4>Technology in Bonsai</h4>
+                <p>By providing fresh and creative methods to connect with each other and engage customers, technology
+                    has the possibility to significantly affect the sales of bonsai plants. Online sales platforms like
+                    e-commerce websites or marketplaces offer a practical way for bonsai vendors to expand their
+                    customer base, sell round-the-clock, and speed up the sales process. Additionally, virtual showrooms
+                    and augmented/virtual reality technology can give clients a hands-on, immersive experience that will
+                    help them better comprehend bonsai plants. Automated inventory control systems can assist bonsai
+                    vendors in monitoring their stock levels, controlling orders and shipments, and lowering the
+                    possibility of overstocking or supply shortages. The effort of the sales force can be reduced, and
+                    customer satisfaction can be increased, by using chatbots and AI-powered customer support to offer
+                    speedy and individualized assistance to clients.</p>
+                <h4>Conclusion</h4>
+                <p>
+                    The bonsai plant industry has been significantly impacted by technology, which has made it possible
+                    to reach customers in new and creative ways and streamline the sales process. The sale of bonsai
+                    plants is now more efficient, available, and interesting thanks to online sales platforms, virtual
+                    showrooms, and augmented/virtual reality technologies. However, it's imperative for bonsai vendors
+                    to take into account any potential drawbacks of technology, such as security threats and the
+                    possibility of lessening one-on-one interactions with clients. Bonsai vendors should create a
+                    balance between the use of technology and conventional sales techniques in order to utilize the
+                    advantages of technology while limiting its disadvantages. In the continuously evolving technology
+                    environment, they can use this to make sure that their sales are still current, competitive, and
+                    profitable.
+                </p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <!-- Author information, featured blogs and newsletter  -->
+            <div class="card">
+                <h2>Author</h2>
+                <div class="blog">
+                    <!-- Author information  -->
+                    <p><b><a href="./Aboutus.html">Satyam Singh Rajput</a> </b></p>
+                    <p>Co-founder</p>
+                    <p>Bonsai House</p>
+
+                </div>
+                <div class="card">
+                    <h3>More from the author</h3>
+                    <div class="blog">
+                        <a href=""><img src="./Images/ficus.jpg" alt="">
+                            <p>Caring your Bonsai</p>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi blanditiis ipsa natus
+                            saepe vero. </p>
+                    </div><br>
+                    <div class="blog">
+                        <a href=""><img src="./Images/aqua.jpg" alt="">
+                            <p>What is an Aqua Bonsai?</p>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi blanditiis ipsa natus
+                            saepe vero. </p>
+                    </div><br>
+                    <div class="blog">
+                        <a href=""><img src="./Images/fertilizer.jfif" alt="">
+                            <p>Fertilizers for your Bonsai.</p>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi blanditiis ipsa natus
+                            saepe vero. </p>
+                    </div><br>
+                </div>
+                <div class="card">
+
+                    <h3>Keep yourself updated!</h3>
+                    <p>Follow us for more related posts in the near future.</p>
+
+                </div>
+                <!-- newsletter for more updates on Bonsai Plants. -->
+                <div class="card">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get updated regarding latest blogs.</p>
+                    <form>
+                        <input type="text" placeholder="Email Address" name="email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section  -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column about">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="/Pages/Aboutus.html">About Us</a></li>
+                    <li><a href="/Pages/product.html">Our Products</a></li>
+                    <li><a href="/Pages/contactus.html">Contact</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-media">
+                <h3>Connect With Us</h3>
+                <div class="social-media-links">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-column newsletter-signup">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2022 Bonsai House. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
